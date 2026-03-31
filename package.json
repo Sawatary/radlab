@@ -1,0 +1,22 @@
+{
+  "name": "tg-med-vision-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Telegram bot with OpenAI vision and SOCKS5 proxy support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "openai": "^4.76.0",
+    "pdfkit": "^0.15.0",
+    "proxy-agent": "^6.4.0",
+    "telegraf": "^4.16.3"
+  }
+}
